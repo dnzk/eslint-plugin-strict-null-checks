@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-strict-null-checks",
+  "version": "1.0.0",
+  "description": "ESLint plugin to enforce explicit null checks instead of optional chaining on function calls",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "null-checks",
+    "optional-chaining"
+  ],
+  "author": "Danish Kalesaran",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^8.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  }
+}
